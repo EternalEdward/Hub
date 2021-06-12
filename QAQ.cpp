@@ -12,17 +12,17 @@ typedef struct Node{
 }Node;
 
 typedef struct List{
-	int length;
+    int length;
     Node data[81];
     Node *head;
-	Node *tail;
+    Node *tail;
 }LString,*LinkLString;
 
 void input(LString &S,int n){
     *LinkLString p=S;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=80;j++)
-            cin>>
+            cin>>p.
     }
 }
 
